@@ -1,0 +1,78 @@
+{
+	"id": "172f8bfa-0d49-41c6-ab69-a26250e99dba",
+	"name": "Reqres1 Project",
+	"timestamp": "2022-09-24T06:50:50.654Z",
+	"collection_id": "12012082-3d52c28e-0717-4f9c-9e2e-a26a74b8dc2d",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 12,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "4251cbcf-b5aa-4d60-8090-818a0debd6ba",
+			"name": "List Users",
+			"time": 153,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Content-Type is present": true,
+				"Correct Page Number ": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 4,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 4,
+					"fail": 0
+				},
+				"Correct Page Number ": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				185,
+				145,
+				172,
+				153
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Correct Page Number ": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Correct Page Number ": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Correct Page Number ": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Correct Page Number ": true
+				}
+			]
+		}
+	],
+	"count": 4,
+	"totalTime": 655,
+	"collection": {
+		"requests": [
+			{
+				"id": "4251cbcf-b5aa-4d60-8090-818a0debd6ba",
+				"method": "GET"
+			}
+		]
+	}
+}
