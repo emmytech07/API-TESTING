@@ -1,0 +1,195 @@
+{
+	"id": "3867f557-9e40-4668-8ba7-a3b765a8ba15",
+	"name": "BootCamp",
+	"timestamp": "2022-09-24T06:24:50.831Z",
+	"collection_id": "12012082-0557d6e3-b8a6-40f9-86a2-03c9148e100a",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 30,
+	"totalFail": 30,
+	"results": [
+		{
+			"id": "f01eb92d-6c24-4528-8a55-179f5d7ed937",
+			"name": "httpbin.org/get?p1=Testing&p2=Software",
+			"time": 232,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 9,
+					"fail": 10
+				}
+			},
+			"times": [
+				1159,
+				242,
+				892,
+				857,
+				1016,
+				229,
+				233,
+				2567,
+				237,
+				232
+			],
+			"allTests": [
+				{
+					"Status code is 200": false
+				},
+				{
+					"Status code is 200": false
+				},
+				{
+					"Status code is 200": false
+				},
+				{
+					"Status code is 200": false
+				},
+				{
+					"Status code is 200": false
+				},
+				{
+					"Status code is 200": false
+				},
+				{
+					"Status code is 200": false
+				},
+				{
+					"Status code is 200": false
+				},
+				{
+					"Status code is 200": false
+				},
+				{
+					"Status code is 200": false
+				}
+			]
+		},
+		{
+			"id": "251e2083-5dc9-4eaa-8868-11c6212b6cb9",
+			"name": "httpbin.org/post",
+			"time": 237,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": false,
+				"Response time is less than 20000ms": true,
+				"Successful POST request": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 0,
+					"fail": 10
+				},
+				"Response time is less than 20000ms": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Successful POST request": {
+					"pass": 0,
+					"fail": 10
+				}
+			},
+			"times": [
+				255,
+				246,
+				245,
+				303,
+				259,
+				879,
+				244,
+				880,
+				248,
+				237
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": false,
+					"Response time is less than 20000ms": true,
+					"Successful POST request": false
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": false,
+					"Response time is less than 20000ms": true,
+					"Successful POST request": false
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": false,
+					"Response time is less than 20000ms": true,
+					"Successful POST request": false
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": false,
+					"Response time is less than 20000ms": true,
+					"Successful POST request": false
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": false,
+					"Response time is less than 20000ms": true,
+					"Successful POST request": false
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": false,
+					"Response time is less than 20000ms": true,
+					"Successful POST request": false
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": false,
+					"Response time is less than 20000ms": true,
+					"Successful POST request": false
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": false,
+					"Response time is less than 20000ms": true,
+					"Successful POST request": false
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": false,
+					"Response time is less than 20000ms": true,
+					"Successful POST request": false
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": false,
+					"Response time is less than 20000ms": true,
+					"Successful POST request": false
+				}
+			]
+		}
+	],
+	"count": 10,
+	"totalTime": 11460,
+	"collection": {
+		"requests": [
+			{
+				"id": "f01eb92d-6c24-4528-8a55-179f5d7ed937",
+				"method": "GET"
+			},
+			{
+				"id": "251e2083-5dc9-4eaa-8868-11c6212b6cb9",
+				"method": "POST"
+			}
+		]
+	}
+}
